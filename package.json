@@ -1,8 +1,8 @@
 {
-  "name": "angular-gettext-tools",
-  "description": "Tools for extracting/compiling angular-gettext strings.",
+  "name": "@recranet/angular-gettext-tools",
+  "description": "Tools for extracting/compiling angular-gettext strings. Modernized fork of angular-gettext-tools.",
   "version": "3.0.0",
-  "homepage": "http://angular-gettext.rocketeer.be/",
+  "homepage": "https://github.com/recranet/angular-gettext-tools",
   "author": {
     "name": "Ruben Vermeersch",
     "email": "ruben@rocketeer.be",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rubenv/angular-gettext-tools.git"
+    "url": "git+https://github.com/recranet/angular-gettext-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/rubenv/angular-gettext-tools/issues"
+    "url": "https://github.com/recranet/angular-gettext-tools/issues"
   },
   "license": "MIT",
   "main": "index.js",

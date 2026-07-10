@@ -1,6 +1,8 @@
-# angular-gettext-tools
+# @recranet/angular-gettext-tools
 
 > Tools for extracting/compiling angular-gettext strings.
+
+Modernized fork of [`angular-gettext-tools`](https://github.com/rubenv/angular-gettext-tools) with a minimal dependency tree. The public API is unchanged.
 
 Used to construct build tools for [`angular-gettext`](https://github.com/rubenv/angular-gettext).
 
