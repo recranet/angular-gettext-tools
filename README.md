@@ -6,7 +6,7 @@ Used to construct build tools for [`angular-gettext`](https://github.com/rubenv/
 
 ## Requirements
 
-* Node.js 20 or newer.
+* Node.js 22 or newer.
 
 Only three runtime dependencies, all small and well-maintained:
 
