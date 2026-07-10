@@ -1,5 +1,7 @@
 'use strict';
 
+var { describe, it, beforeEach, afterEach } = require('node:test');
+
 var assert = require('assert');
 var fs = require('fs');
 var Extractor = require('..').Extractor;

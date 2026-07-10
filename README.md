@@ -4,7 +4,24 @@
 
 Used to construct build tools for [`angular-gettext`](https://github.com/rubenv/angular-gettext).
 
-[![Build Status](https://travis-ci.org/rubenv/angular-gettext-tools.png?branch=master)](https://travis-ci.org/rubenv/angular-gettext-tools)
+## Requirements
+
+* Node.js 20 or newer.
+
+Only three runtime dependencies, all small and well-maintained:
+
+* [`@babel/parser`](https://babeljs.io/docs/babel-parser) — JavaScript/TypeScript parsing (zero dependencies)
+* [`htmlparser2`](https://github.com/fb55/htmlparser2) — forgiving HTML parsing (small, zero-dependency packages)
+* [`pofile`](https://github.com/rubenv/pofile) — PO file parsing/serialization (zero dependencies)
+
+## Development
+
+```bash
+npm install
+npm test
+```
+
+Tests run on the built-in Node.js test runner (`node --test`), so there are no development dependencies.
 
 Implementations:
 

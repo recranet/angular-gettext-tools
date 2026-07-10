@@ -1,7 +1,8 @@
 'use strict';
 
+var { describe, it, beforeEach, afterEach } = require('node:test');
+
 var assert = require('assert');
-var sinon = require('sinon');
 var testExtract = require('./utils').testExtract;
 
 describe('Extracting from Javascript', function () {
@@ -89,17 +90,11 @@ describe('Extracting from Javascript', function () {
     });
 
     describe('invalid javascript', function () {
-        beforeEach(function () {
-            sinon.stub(console, 'warn', function () {
+        it('should not throw an exception', function (t) {
+            t.mock.method(console, 'warn', function () {
                 // respect the rule of silence
             });
-        });
 
-        afterEach(function () {
-            console.warn.restore();
-        });
-
-        it('should not throw an exception', function () {
             var files = [
                 'test/fixtures/deeppath_catalog_invalid.js'
             ];
